@@ -20,14 +20,14 @@ const ContextApi = () => {
           The Context API in React provides a way to manage global state and share data across components without the need to pass props down manually at every level of the component tree. It helps to avoid **prop drilling**, making it easier to manage state in a more structured and efficient manner.
         </p>
         <h2 className="text-[20px] font-bold mt-10 mb-4">Example:</h2>
-        <pre className="bg-white p-10 rounded-md">
-          <p>
-            A global state containing a name (`Daniel Godwin`) is managed within
-            the `UserProvider` component using <br /> the Context API. The `name`
-            value is accessed in this component via the `useContext` hook,<br />
-            allowing us to display it without the need for prop drilling.
-          </p>
-        </pre>
+        <pre className="bg-white p-5 rounded-md whitespace-pre-wrap">
+      <p>
+        A global state containing a name (`Daniel Godwin`) is managed within
+        the `User Provider` component using <br /> the Context API. The `name`
+        value is accessed in this component via the `useContext` hook,<br />
+        allowing us to display it without the need for prop drilling.
+      </p>
+    </pre>
         <p className="mt-8 text-[18px]">
           Good Morning, <strong>{name}</strong>!
         </p>

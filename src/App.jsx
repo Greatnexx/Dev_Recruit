@@ -37,7 +37,6 @@ const App = () => {
         <Route path="/modal" element={<ModalPage/>} />
       </Routes> 
     </UserProvider>
-
     </BrowserRouter>
   )
 }
