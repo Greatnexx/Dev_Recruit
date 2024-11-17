@@ -43,7 +43,7 @@
     {
       id: 8,
       question: "Todo App.",
-      answerPath: "/todo", // Duplicate example
+      answerPath: "/todo"
     }
    
   ];
