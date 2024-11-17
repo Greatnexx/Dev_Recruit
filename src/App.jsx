@@ -15,11 +15,11 @@ import { ToastContainer } from "react-toastify"
 import "react-toastify/dist/ReactToastify.css"
 import ModalPage from "./pages/ModalPage"
 import Portal from "./pages/Portal"
+import Error from "./pages/Error"
 
 const App = () => {
   return (
     <BrowserRouter>
-       
       <UserProvider>
         <ToastContainer/>
       <Routes>   
@@ -35,6 +35,7 @@ const App = () => {
         <Route path="/form" element={<FormPage/>} />
         <Route path="/react-application" element={<ReactApp/>} />
         <Route path="/modal" element={<ModalPage/>} />
+        <Route path="*" element={<Error/>} />
       </Routes> 
     </UserProvider>
     </BrowserRouter>

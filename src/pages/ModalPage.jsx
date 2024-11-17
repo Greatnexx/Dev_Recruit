@@ -16,6 +16,7 @@ const ModalPage = () => {
        <BiArrowBack className='mr-2'/>
         Go back 
       </Link>
+       <h1 className='text-[25px] text-center'>A RESUABLE MODAL COMPONENT USING REACT PORTALS</h1>
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <button 
         onClick={toggleModal} 
