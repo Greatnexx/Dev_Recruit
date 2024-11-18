@@ -50,7 +50,7 @@ const FormPage = () => {
       if (step < 2) {
         setStep(step + 1);
       } else {
-        toast.success('Registration Successful');
+        console.log('Registration Successful');
       }
     }
   };
@@ -66,7 +66,7 @@ const FormPage = () => {
       };
 
       console.log('Form submitted successfully:', model);
-      toast.success('Form submitted successfully!');
+      toast.success('Form submitted successfully!');  
       setFormData({
         name: '',
         email: '',
